@@ -1,0 +1,19 @@
+/*mixin*/
+
+@import 'mixin';
+
+/*blocks*/
+
+$red: red;
+h1 {
+    background-color: $red;
+    display: flex;
+}
+
+ul {
+    @include clear-list;
+}
+
+a {
+    color: $red;
+}
